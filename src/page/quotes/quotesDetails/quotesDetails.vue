@@ -96,7 +96,7 @@ export default {
       this.$router.go(-1);
     },
     // 去评论
-    goCollection() {
+    goCommentClick(){
       if (this.userInfo == null) {
         this.logonPopup(true);
       }

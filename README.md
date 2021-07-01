@@ -1,4 +1,4 @@
-# hello-vue3
+# judu-app
 
 ## Project setup
 ```
