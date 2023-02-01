@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": 5,
+    "comment": 345,
+    "like": 8485,
+    "coverPhoto": "./img/cover-06.jpg",
+    "sentence": "不含敌意的坚决，不带诱惑的深情。",
+    "author": "科胡特",
+    "source": null
+  },
+  "msg": "操作成功",
+  "returnCode": "200",
+  "returnTime": 1623894653
+}

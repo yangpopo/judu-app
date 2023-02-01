@@ -65,12 +65,22 @@ export default {
     },
     // 去登录
     goLogon() {
-      axios.get("/api/returnTrue.json").then(res => {
-        if (res.returnCode == 200) {
-          this.logonPopup(false);
-          this.updateUserInfo(true)
-        }
-      })
+      // axios.get("/api/returnTrue.json").then(res => {
+      //   if (res.returnCode == 200) {
+      //     this.logonPopup(false);
+      //     this.updateUserInfo(true)
+      //   }
+      // })
+      let res = {
+        "data": true,
+        "msg": "操作成功",
+        "returnCode": "200",
+        "returnTime": 1623894653
+      };
+      if (res.returnCode == 200) {
+        this.logonPopup(false);
+        this.updateUserInfo(true)
+      }
     }
   }
 }
