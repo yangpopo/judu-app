@@ -1,4 +1,6 @@
 module.exports = {
   lintOnSave: false,
-  publicPath: 'https://yangmapo.gitee.io/judu-app/'
+  publicPath: process.env.BABEL_ENV === 'production'
+    ? 'https://yangmapo.gitee.io/judu-app/'
+    : '/'
 }
